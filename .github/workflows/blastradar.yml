@@ -10,5 +10,5 @@ jobs:
           fetch-depth: 2
       - uses: Blast-radar/blastradar-action@v1
         with:
-          anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           threshold: '7'
