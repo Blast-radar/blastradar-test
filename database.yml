@@ -1,0 +1,4 @@
+production:
+  host: db-replica.internal
+  pool: 2
+  timeout: 500
