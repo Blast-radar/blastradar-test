@@ -1,0 +1,4 @@
+app:
+  debug: true
+  db_host: db-replica.internal
+  pool: 1
