@@ -4,9 +4,6 @@ on: [pull_request]
 jobs:
   risk-check:
     runs-on: ubuntu-latest
-    env:
-      INPUT_ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      INPUT_THRESHOLD: '7'
     steps:
       - uses: actions/checkout@v4
         with:
